@@ -3,13 +3,10 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=5" name="viewport">
 
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/normalize.css"/>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/bulma.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css"/>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/syntax.css" | relative_url }}" type="text/css">
 
     <!-- Icons -->
@@ -19,16 +16,5 @@
     <link href="/atom.xml" rel="alternate" title="RSS" type="application/rss+xml">
     <link href="/atom.xml" rel="alternate" title="RSS" type="application/rss+xml">
 
-    <title>
-        {% if page.title == "Home" %}
-            {{ site.title }}
-            &middot;
-            {{ site.tagline }}
-        {% else %}
-            {{ page.title }}
-            &middot;
-            {{ site.title }}
-        {% endif %}
-    </title>
-
+    {%- seo -%}
 </head>
