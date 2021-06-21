@@ -8,10 +8,12 @@
         <section class="hero is-dark">
             <div class="hero-body">
                 <div class="container">
-                    <h1 class="title">
-                        Hello, world!
-                    </h1>
-                    <h2 class="subtitle" id="quote"></h2>
+                    <a href="/">
+                        <h1 class="title">
+                            Hello, world!
+                        </h1>
+                        <h2 class="subtitle" id="quote"></h2>
+                    </a>
                 </div>
             </div>
         </section>
@@ -48,8 +50,10 @@
                     </div>
 
                     <div class="nav-right nav-menu" id="nav-menu">
-                        <a href="{{ "/archive" | relative_url }}" class="nav-item">Archive</a>
-                        <a href="{{ "/tags" | relative_url }}" class="nav-item">Tags</a>
+                        <a href="{{ "/about" | relative_url }}" class="nav-item">👋 About</a>
+                        <a href="{{ "/archive" | relative_url }}" class="nav-item">🗃️ Archive</a>
+                        <a href="{{ "/tags" | relative_url }}" class="nav-item">📁 Tags</a>
+                        <a href="{{ "/rss" | relative_url }}" class="nav-item">🚩 RSS</a>
                     </div>
 
                     <span class="nav-toggle" id="nav-toggle">
@@ -72,12 +76,12 @@
 
                                     <div class="card">
                                         <header class="card-header">
-                                            <p class="card-header-title nice-title">
+                                            <p class="card-header-title card-title">
                                                 Recent Posts
                                             </p>
                                         </header>
                                         <div class="card-content">
-                                            <div class="content nice-text">
+                                            <div class="content card-text">
                                                 <ul>
                                                     {% for post in site.posts limit:3 %}
                                                         <li>
@@ -96,12 +100,12 @@
 
                                     <div class="card">
                                         <header class="card-header">
-                                            <p class="card-header-title nice-title">
+                                            <p class="card-header-title card-title">
                                                 Sponsored
                                             </p>
                                         </header>
                                         <div class="card-content">
-                                            <div class="content nice-text">
+                                            <div class="content card-text">
                                                 <img alt="Dust Bunny!" src="{{ site.baseurl }}/assets/images/Dust_Bunny.jpg"/>
                                             </div>
                                         </div>
@@ -112,12 +116,12 @@
                                 <div class="tile is-child widget">
                                     <div class="card">
                                         <header class="card-header">
-                                            <p class="card-header-title nice-title">
+                                            <p class="card-header-title card-title">
                                                 Recommended Websites
                                             </p>
                                         </header>
                                         <div class="card-content">
-                                            <div class="content nice-text">
+                                            <div class="content card-text">
                                                 <ul>
                                                     <li><a href="https://xkcd.com">xkcd</a></li>
                                                     <li><a href="http://commitstrip.com">Commit Strip</a></li>
@@ -142,7 +146,7 @@
 
             <footer class="footer">
                 <div class="container">
-                    <div class="content has-text-centered">
+                    <div class="content centered">
                         <p>
                             Some rights reserved.
                         </p>
