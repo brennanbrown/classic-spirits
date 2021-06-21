@@ -422,7 +422,7 @@ table th {
 
 .subtitle,
 .title {
-    word-break: break-word
+    word-break: break-word;
 }
 
 .title:not(:last-child) {
@@ -430,9 +430,9 @@ table th {
 }
 
 .title {
+    font-weight: bold;
     color: #363636;
     font-size: 2rem;
-    font-weight: 300;
     line-height: 1.125
 }
 
