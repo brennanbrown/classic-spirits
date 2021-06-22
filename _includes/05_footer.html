@@ -1,26 +1,33 @@
 <footer class="footer">
     <div class="container">
         <div class="content centered">
+            <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" style="border-width:0"/></a><br/>
             <p>
-                Some rights reserved.
+                <a href="https://github.com/{{ site.repository }}">Source Code</a>
+                licensed under
+                <a href="https://github.com/{{ site.repository }}/blob/master/LICENSE">MIT</a>.
+                <br/>
+                Website content licensed
+                <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+                by
+                {{ site.author.name }}
             </p>
             <p>
-                Made with
-                <i class="fa fa-heart"></i>
+                Made with ♥ and powered by
+                <a href="https://github.com/jgthms/bulma">Bulma</a>
                 and
-                <a href="https://github.com/jgthms/bulma">Bulma</a>,
-                <a href="https://jekyllrb.com/">Jekyll</a>. Hosted on
+                <a href="https://jekyllrb.com/">Jekyll</a>! 🧪 Hosted on
                 <a href="https://github.com/">Github</a>.
             </p>
-            <p>
-                <a class="icon" href="https://github.com/abhn">
-                    <i class="fa fa-github" title="Github"></i>
+            <p class="footer-icons">
+                <a class="icon" href="https://github.com/{{site.author.github}}">
+                    {% include svg/github.html %}
                 </a>
-                <a class="icon" href="https://in.linkedin.com/in/AbhishekNagekar">
-                    <i class="fa fa-linkedin" title="Linkedin"></i>
+                <a class="icon" href="https://twitter.com/{{site.author.twitter}}">
+                    {% include svg/twitter.html %}
                 </a>
-                <a class="icon" href="mailto:abhishek@nagekar.com">
-                    <i class="fa fa-envelope" title="Email"></i>
+                <a class="icon" href="mailto:{{site.author.email}}">
+                    {% include svg/email.html %}
                 </a>
             </p>
         </div>
