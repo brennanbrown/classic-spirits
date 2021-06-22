@@ -42,5 +42,5 @@ function searchHandler() {
   var text = searchInput.value;
   // add site:example.com in the placeholder
   window.location.href =
-    "https://www.google.com/search?q=site:nagekar.com " + text;
+    "https://www.google.com/search?q=site:{{site.url}} " + text;
 }
