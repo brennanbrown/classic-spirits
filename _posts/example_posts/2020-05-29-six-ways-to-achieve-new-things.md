@@ -1,12 +1,13 @@
 ---
 title: 6 Ways to Achieve New Things
-date: 2020-10-29
+date: 2020-05-29
 author: Brennan K. Brown
 layout: post
 tags:
   - Goals
   - Habits
   - Inspiration
+category: Creativity
 ---
 
 > Getting back on your horse, no matter how many times you’ve fallen off.

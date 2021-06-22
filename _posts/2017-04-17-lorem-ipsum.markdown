@@ -1,6 +1,7 @@
 ---
 title: Lorem Ipsum
 layout: post
+category: Markdown
 ---
 
 ## Lorem ipsum dolor sit amet

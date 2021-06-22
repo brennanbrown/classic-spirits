@@ -1,12 +1,13 @@
 ---
 title: Creating a Contingency Plan
-date: 2020-10-28
+date: 2020-06-28
 author: Brennan K. Brown
 layout: post
 tags:
   - Planning
   - Productivity
   - Writing
+category: Self-improvement
 ---
 
 ### <b>Failure is Important</b>
@@ -15,7 +16,7 @@ Last month, I had the idea to write an article each day for the month. How long 
 
 Before I get into that, though, let’s take a look at the bright side of the situation. I managed to write two longform articles that I’m proud of:
 
-<https://writingcooperative.com/my-writing-process-4868f986f97f>  
+<https://writingcooperative.com/my-writing-process-4868f986f97f>
 
 The only reason those posts got written was because, for the first time, I had to churn things out. Challenging myself to write each day for a month made me think long-term and plan out a schedule. It made me think of different topics to explore and ideas to experiment with. In the past, I’ve truthfully just written when inspiration struck.
 
@@ -30,7 +31,7 @@ Not only that, but I joined the <a href="https://medium.com/creators" target="_b
 <img data-width="4000" data-height="250" src="https://cdn-images-1.medium.com/max/800/1*75f3FyFy5_WnAC4joYEXJQ.png" />  
 </figure>
 
-#### Focusing on only the important stuff is the most valuable thing you can do for yourself.
+#### Focusing on only the important stuff is the most valuable thing you can do for yourself
 
 <b>_Summary:_</b> _This article details why failure is a powerful tool for reflection, and necessary part of life. It then goes on to outline a powerful method to plan for future success by cutting out anything that isn’t essential to your own values._
 
@@ -63,9 +64,9 @@ What is a contingency plan? It’s defined as: _A plan designed to take a possib
 <img data-width="2400" data-height="1514" src="https://cdn-images-1.medium.com/max/600/1*GO5EtoAdbj4MMIoP7D76Lw.png" />  
 </figure>
 
-After reading a lot of literature on the subject, I’ve boiled down what would make a good personal contingency plan into a single sentence: <b>Create a focal point for yourself.</b> What does that mean? It means:   
-<b>1)</b> Figure out your values.   
-<b>2)** Make them your first priority. **3)</b> Cut the rest of the bullshit out of your life.   
+After reading a lot of literature on the subject, I’ve boiled down what would make a good personal contingency plan into a single sentence: <b>Create a focal point for yourself.</b> What does that mean? It means:
+<b>1)</b> Figure out your values.
+<b>2)**Make them your first priority.**3)</b> Cut the rest of the bullshit out of your life.
 The human mind is an amazingly capable machine, but with so much stimuli, it is spread far too thin. If you were to write out a list of each unique thing you did today — let alone today–you would have dozens of different tasks that require both willpower and brain-power.
 
 We all have more choices and information in front of us than ever before in human history. It’s far too easy to use the technology and potential knowledge available to us in an unhealthy and unproductive way. There’s an emerging trend of _digital detox_, the act of cutting out social media and the internet as a whole from your life. I believe there is merit to this. We all could value from taking some time to sincerely just _sit and think._ To hear your own voice instead of being bombarded with the thousands of the online.
@@ -106,12 +107,13 @@ As per usual, I enjoy displaying how I personally use the information that I fin
 4. <b>Reach Out.</b> A lot of people view writing as a solitary craft — and it is. But even then, community is everything. The entire idea of Medium is to have an established community of talented people that create good work that deserves discussion and feedback. Having others hold you accountable is far more powerful than trying to hold yourself accountable.
 
 5. <b>Cut the Bullshit.</b> If I come across something that doesn’t fit in the above four actions, I won’t bother with it. <a href="https://medium.com/@brennanbrown/our-finite-everything-8ed4d9d70a2f" target="_blank" rel="noopener noreferrer">Days are too short to let time be wasted.</a> Attention is too limited and finite to allow for meaningless distractions. The human body is too complex and incredible to allow unhealthy foods or lack of physical activity to occur. Each moment, I need to be mindful of what I’m doing, and if I’m pushing myself towards my goals or pulling myself further away from them.
+
 <figure>
 
 <img data-width="1400" data-height="62" src="https://cdn-images-1.medium.com/max/800/1*A1HXExeRru-asgR6_gN4Sw.png" />  
 </figure>
 
-#### SUMMARY:
+#### SUMMARY
 
 1. <b>Embrace Failure.</b> Recognize the importance of the path that mistakes and regrets have put you on, and the lessons you’ve been taught. More importantly, allow yourself to be vulnerable enough to walk into challenges where failure is bound to happen.
 

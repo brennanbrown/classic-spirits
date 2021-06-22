@@ -1,12 +1,13 @@
 ---
 title: My Writing Process
-date: 2020-10-27
+date: 2020-08-27
 author: Brennan K. Brown
 layout: post
 tags:
   - Productivity
   - Planning
   - Writing
+category: Self-improvement
 ---
 
 ## Five Steps to Go From Brainstorming to Completed Work
@@ -15,7 +16,7 @@ tags:
 
 Today is the third day of November. For some of the day, I’ve been trying to craft a new article to publish. For the large majority though, I’ve just been trying to find new and creative ways to procrastinate!
 
-The first day I wrote about how I’m rebelling against NaNoWriMo this year. <a href="https://medium.com/@brennanbrown/why-i-write-e425cdda0e10" target="_blank" rel="noopener noreferrer">Yesterday</a>, I wrote about _why_ I write — a bit of the philosophical and bigger-picture sort of thinking.
+The first day I wrote about how I’m rebelling against NaNoWriMo this year. <a href="https://medium.com/@brennanbrown/why-i-write-e425cdda0e10" target="_blank" rel="noopener noreferrer">Yesterday</a>, I wrote about*why* I write — a bit of the philosophical and bigger-picture sort of thinking.
 
 Today, I thought I might as well keep on the same topic and talk about the _how_ I write. To detail how exactly to go from a simple and disorderly idea to a completed and coherent article.
 
@@ -27,7 +28,7 @@ There are many steps to this process — from brainstorms to an outline, fro
 
 ## An Aside: GOOD WRITING?
 
-> “All good writing is swimming under water and holding your breath.”   
+> “All good writing is swimming under water and holding your breath.”
 > — F. Scott Fitzgerald
 
 Writing is a mysterious and elusive artform. Whether it’s technical, creative, or copy — good writing contains something that cannot be taught. A balance needs to be struck between the formless idea and the formulaic structure.
@@ -36,7 +37,7 @@ The idea — the actual content — needs to be exciting and novel. But 
 
 ### 1. PREPARATION: Focus
 
-> “A winning effort begins with preparation.”   
+> “A winning effort begins with preparation.”
 > — Joe Gibbs
 
 <span>D</span>istraction is the worst offender for writing that’s never completed — and often times writing that isn’t even started. Identify and eliminate potential distractions before you begin. Ensure you don’t allow yourself to procrastinate by dealing with them when they arrive.
@@ -49,7 +50,7 @@ The idea — the actual content — needs to be exciting and novel. But 
 
 <b>Unplug and disconnect.</b> The research phase of writing is the only time you should be using the Internet. Use an offline word processor, or write by hand. Keep things more traditional — for linguistics, have a dictionary and thesaurus on hand.
 
-### 2. BRAINSTORM: Bad Ideas > No Ideas.
+### 2. BRAINSTORM: Bad Ideas > No Ideas
 
 > “The way to get good ideas is to get lots of ideas and throw the bad ones away.”  
 > — Linus Pauling
@@ -62,7 +63,7 @@ The idea — the actual content — needs to be exciting and novel. But 
 
 ### 3. OUTLINE: Craft a Thesis
 
-> “Give me six hours to chop down a tree and I will spend the first four sharpening the axe.”   
+> “Give me six hours to chop down a tree and I will spend the first four sharpening the axe.”
 > ―Abraham Lincoln
 
 <b>Outline first.</b> Once you’re satisfied with the idea you’re going to be working with, it might be tempting to plunge right into writing by the seat of your pants. However, this will only create more work in the future. Having an outline written will save you time.You won’t be constantly second-guessing yourself — and more importantly, losing focus on the topic at-hand.
@@ -73,7 +74,7 @@ The idea — the actual content — needs to be exciting and novel. But 
 
 ### 4. DRAFTING & EDITING
 
-> “An architect’s most useful tools are an eraser at the drafting board, and a wrecking bar at the site.”   
+> “An architect’s most useful tools are an eraser at the drafting board, and a wrecking bar at the site.”
 > — Frank Lloyd Wright
 
 <b>Write inside-out.</b> Don’t try to write the introduction first, it’s always the hardest part. Instead, go through your outline and pick the section you’d think would be easiest to write, and keep going from there.
@@ -96,7 +97,7 @@ The idea — the actual content — needs to be exciting and novel. But 
 
 ### 5. CHOPPING: Be Ruthless
 
-> “Less is more.”   
+> “Less is more.”
 > — Ludwig Mies van der Rohe
 
 <b>The Internet is chock-full of information.</b> It is also already full of people that want their voices to be heard, and their content to be seen. There has never been such a greater amount of salesmen as there are right now in front of your screen. Everybody is trying to sell something — we live in capitalistic society, after all.

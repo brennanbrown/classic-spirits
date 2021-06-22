@@ -1,16 +1,17 @@
 ---
 id: 221
 title: "Getting Unstuck for Creatives"
-date: 2020-10-30
+date: 2019-10-30
 author: Brennan K. Brown
 layout: post
 tags:
   - Creativity
   - Inspiration
   - Habits
+category: Creativity
 ---
 
-## Taking a novel approach to life and breaking routines.
+## Taking a novel approach to life and breaking routines
 
 Okay, let's be real. I've found myself totally trapped in the habitual daily acts that've sprung up thanks to COVID-19, and I'm sure that I'm not alone in that. The lack of travelling different places, meeting new people, having _any_ sort of stimuli apart from our dreaded screens can get _beyond_ boring and frustrating.
 

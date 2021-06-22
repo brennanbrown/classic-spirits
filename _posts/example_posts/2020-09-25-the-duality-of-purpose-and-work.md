@@ -1,11 +1,12 @@
 ---
 title: The Duality of Purpose and Work
-date: 2020-10-25
+date: 2020-09-25
 author: Brennan K. Brown
 layout: post
 tags:
   - Purpose
   - Inspiration
+category: Creativity
 ---
 
 **PART ONE: HAVING FAITH IN GRAND DREAMS.** Understanding the _why_ of the work is the most important thing that’s needed when starting out. It’s so easy to become discouraged when you’re in the the thick of the weeds, when you need to do difficult or tedious. Motivation and discipline to do such work comes from having a bigger picture — a purpose.
@@ -16,7 +17,7 @@ This purpose comes from a place of realistic optimism and idealism. It’s a mes
 
 <img data-width="5532" data-height="3688" src="https://cdn-images-1.medium.com/max/2560/1*RijfP3sZSfQXb8V_43OzUA.jpeg" /> <figcaption class="wp-caption-text"><b>Person Making Clay Pot</b> | <a href="https://www.pexels.com/photo/ceramic-artisan-clay-mud-110144/" target="_blank" rel="noopener noreferrer">Source</a></figcaption></figure>
 
-## How to effectively go about doing what’s truly important.
+## How to effectively go about doing what’s truly important
 
 <!--more-->
 

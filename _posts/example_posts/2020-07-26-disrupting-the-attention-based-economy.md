@@ -1,11 +1,12 @@
 ---
 title: Disrupting the Attention-based Economy
-date: 2020-10-26
+date: 2020-07-26
 author: Brennan K. Brown
 layout: post
 tags:
   - Productivity
   - Habits
+category: Self-improvement
 ---
 
 When you wake up in the morning and get out of bed — or even before you get out of bed — what’s the first thing that grabs your attention? Whatever it is, it’s going to be responsible for your first thoughts of the day. Throughout the rest of your day, you’ll be faced with a bombardment of distractions that will grab your awareness away from what you’re doing.
@@ -21,7 +22,7 @@ We live in an <a href="https://techcrunch.com/2017/07/30/the-attention-economy-c
 <img data-width="4000" data-height="250" src="https://cdn-images-1.medium.com/max/800/1*75f3FyFy5_WnAC4joYEXJQ.png" />  
 </figure>
 
-## Stop being easily swayed by anything that’s in front of you. Start living a value-based lifestyle.
+## Stop being easily swayed by anything that’s in front of you. Start living a value-based lifestyle
 
 <figure>
 
