@@ -27,12 +27,12 @@ Usage:
     {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
   
     {% if forloop.first %}
-      <h2 class="card-title">{{this_year}}</h2>
-      <h3 class="card-text">{{this_month}}</h3>
+      <h2 class="archive-year">{{this_year}}</h2>
+      <h3 class="archive-month">{{this_month}}</h3>
       <ul>
     {% endif %}
   
-    <li><span>{{ post.date | date: "%B %e, %Y" }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li class="archive-list"><span><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></span> <span style="float:right;">&raquo; {{ post.date | date: "%B %e, %Y" }}</span></li>
   
     {% if forloop.last %}
       </ul>
@@ -40,13 +40,13 @@ Usage:
       {% if this_year != next_year %}
         </ul>
         <hr/>
-        <h2 class="card-title">{{next_year}}</h2>
-        <h3 class="card-text">{{next_month}}</h3>
+        <h2 class="archive-year">{{next_year}}</h2>
+        <h3 class="archive-month">{{next_month}}</h3>
         <ul>
       {% else %}    
         {% if this_month != next_month %}
           </ul>
-          <h3 class="card-text">{{next_month}}</h3>
+          <h3 class="archive-month">{{next_month}}</h3>
           <ul>
         {% endif %}
       {% endif %}
