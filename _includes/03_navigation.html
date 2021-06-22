@@ -1,0 +1,40 @@
+<nav class="nav has-shadow">
+
+    <div class="nav-left">
+        <a href="{{"/" | relative_url}}" class="nav-item">
+            <span class="icon">
+                🏠
+            </span>
+        </a>
+        <a class="nav-item" href="https://github.com/abhn">
+            <span class="icon">
+                💻
+            </span>
+        </a>
+
+        <div class="nav-item" id="searchFieldNav">
+            <div class="field has-addons">
+                <p class="control">
+                    <input class="input is-small" id="search-text" placeholder="Find an article" type="text">
+                </p>
+                <p class="control">
+                    <a class="button is-dark is-small" onclick="searchHandler();">
+                        Search
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="nav-right nav-menu" id="nav-menu">
+        <a href="{{ "/about" | relative_url }}" class="nav-item">👋 About</a>
+        <a href="{{ "/archive" | relative_url }}" class="nav-item">🗃️ Archive</a>
+        <a href="{{ "/tags" | relative_url }}" class="nav-item">📁 Tags</a>
+        <a href="{{ "/rss" | relative_url }}" class="nav-item">🚩 RSS</a>
+    </div>
+    <span class="nav-toggle" id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+
+</nav>

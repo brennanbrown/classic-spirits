@@ -1,0 +1,89 @@
+<aside class="tile is-4 is-child">
+    <div class="tile is-parent is-vertical sidebar">
+
+        <!-- About Me-->
+        <div class="tile is-child widget">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title card-title">
+                        About the Author
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="card-image">
+                        <img alt="Photo of {{site.author.name}}" src="https://brennanbrown.ca/img/avatar.jpg">
+                    </div>
+                    <div class="content card-text">
+                        {{site.about}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Recent Posts-->
+        <div class="tile is-child widget">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title card-title">
+                        Recent Posts
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content card-text">
+                        <ul>
+                            {% for post in site.posts limit:3 %}
+                                <li>
+                                    <a href="{{ post.url | relative_url }}">
+                                        {{ post.title }}
+                                    </a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--- Sponsored Content -->
+        <div class="tile is-child widget">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title card-title">
+                        Sponsored
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content card-text">
+                        <img alt="Dust Bunny!" src="{{ site.baseurl }}/assets/images/Dust_Bunny.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blogroll -->
+        <div class="tile is-child widget">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title card-title">
+                        Recommended Websites
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content card-text">
+                        <ul>
+                            <li><a href="https://xkcd.com">xkcd</a></li>
+                            <li><a href="http://commitstrip.com">Commit Strip</a></li>
+                            <li><a href="http://www.smbc-comics.com">SMBC Comics</a></li>
+                            <li><a href="https://blog.codinghorror.com">Coding Horror</a></li>
+                            <li><a href="http://waitbutwhy.com">Wait Buy Why</a></li>
+                            <li><a href="https://simplysoch.wordpress.com/">Simply Soch</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</aside>
