@@ -1,8 +1,8 @@
 // https://github.com/jgthms/bulma/issues/238 thanks!
 document.getElementById("nav-toggle").addEventListener("click", toggleNav);
 function toggleNav() {
-  var nav = document.getElementById("nav-menu");
-  var className = nav.getAttribute("class");
+  let nav = document.getElementById("nav-menu");
+  let className = nav.getAttribute("class");
   if (className == "nav-right nav-menu") {
     nav.className = "nav-right nav-menu is-active";
   } else {
@@ -11,7 +11,7 @@ function toggleNav() {
 }
 
 // for the random quote in the header
-var txtFile = new XMLHttpRequest();
+let txtFile = new XMLHttpRequest();
 txtFile.open("GET", "/quotes.txt", true);
 txtFile.onreadystatechange = function () {
   if (txtFile.readyState === 4) {
@@ -38,9 +38,11 @@ document.getElementById("search-text").addEventListener(
 );
 
 function searchHandler() {
-  var searchInput = document.getElementById("search-text");
-  var text = searchInput.value;
-  // add site:example.com in the placeholder
+  let searchInput = document.getElementById("search-text");
+  let text = searchInput.value;
+  let site = document.URL;
+  let domain = new URL(site);
+  domain = domain.hostname;
   window.location.href =
-    "https://www.google.com/search?q=site:{{site.url}} " + text;
+    "https://www.google.com/search?q=site:" + domain + " " + text;
 }
