@@ -6,7 +6,7 @@
             «
             {{ page.previous.title | truncate: 25 }}</a>
     {% else %}
-        <a class="pagination-previous" href="{{"/" | relative_url}}">
+        <a class="pagination-previous post-page" href="{{"/" | relative_url}}">
             <span class=""></span>Back</a>
     {% endif %}
     {% if page.next.url %}

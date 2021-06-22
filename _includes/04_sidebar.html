@@ -1,7 +1,7 @@
 <aside class="tile is-4 is-child">
     <div class="tile is-parent is-vertical sidebar">
 
-        <!-- About Me-->
+        <!-- About Me -->
         <div class="tile is-child widget">
             <div class="card">
                 <header class="card-header">
@@ -21,7 +21,7 @@
         </div>
 
 
-        <!-- Recent Posts-->
+        <!-- Recent Posts -->
         <div class="tile is-child widget">
             <div class="card">
                 <header class="card-header">
@@ -56,6 +56,35 @@
                 <div class="card-content">
                     <div class="content card-text">
                         <img alt="Dust Bunny!" src="{{ site.baseurl }}/assets/images/Dust_Bunny.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Categories -->
+        <div class="tile is-child widget">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title card-title">
+                        Categories
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div class="content card-text">
+                        <ul>
+                            {% for category in site.categories %}
+                                <li>
+                                    <a onclick="redirect('/categories#{{ category[0] }}')">
+                                        {% if page.categories contains category[0] %}
+                                            <b>{{ category[0] }}</b>
+                                        {% else %}
+                                            {{ category[0] }}
+                                        {% endif %}
+                                    </a>
+                                    <sup>[{{ category[1].size }}]</sup>
+                                </li>
+                            {% endfor %}
+                        </ul>
                     </div>
                 </div>
             </div>
