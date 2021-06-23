@@ -1,0 +1,13 @@
+# TODO
+
+- Typography (Size, etc.)
+	- Figcaption
+	- Line height on paragraphs
+	- Top/bottom margins on images
+	- Quotes?
+- Post metadata (on feed *and* per post)
+- Fix breadcrumbs
+- Create 'About' page
+- Add blogroll options in _config
+- Newsletter embed
+- Favicon

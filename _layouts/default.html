@@ -2,18 +2,22 @@
 <html lang="en-us">
     {% include 01_head.html %}
     <body>
+        <!-- HEADER -->
         {% include 02_header.html %}
         <div class="main-container">
             <div class="tile is-ancestor is-vertical">
+                    <!-- NAVIGATION -->
                     {% include 03_navigation.html %}
                     <div class="tile is-parent">
                         <div class="tile is-8 is-child main">
                             {{ content }}
                         </div>
+                        <!-- SIDEBAR -->
                         {% include 04_sidebar.html %}
                     </div>
                 </div>
             </div>
+            <!-- FOOTER -->
             {% include 05_footer.html %}
             <!-- js -->
             <script src="{{ site.baseurl }}/assets/js/custom.js"></script>

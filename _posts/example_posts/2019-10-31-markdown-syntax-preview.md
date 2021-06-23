@@ -3,8 +3,8 @@ layout: post
 title: "Markdown Syntax Preview"
 date: 2019-09-31
 tags:
-  - jekyll
-  - markdown
+  - Jekyll
+  - Markdown
 category: Markdown
 ---
 

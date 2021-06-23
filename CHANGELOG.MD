@@ -3,7 +3,8 @@
 - Purged CSS, removed FontAwesome and custom fonts.
 - Removed unused scripts in `_includes/JB`
 - Modularized page layouts
-  - Added configuration options for sidebar, footer, etc.
+  - Added variable options for sidebar, footer, etc. in `_config.yml`
+- Add Twitter feed
 
 ## Changes (Legacy)
 
