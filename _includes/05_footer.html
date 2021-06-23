@@ -1,7 +1,10 @@
 <footer class="footer">
     <div class="container">
         <div class="content centered">
-            <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" style="border-width:0"/></a><br/>
+            <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license">
+                <img alt="Creative Commons Licence" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" style="border-width:0"/>
+            </a>
+            <br/>
             <p>
                 <a href="https://github.com/{{ site.repository }}">Source Code</a>
                 licensed under
@@ -10,7 +13,12 @@
                 Website content licensed
                 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
                 by
-                {{ site.author.name }}
+                {{ site.author.name }}.
+                <br/>
+                Original theme
+                <a href="https://github.com/abhn/Soot-Spirits">Soot Spirits</a>
+                by
+                <a href="https://github.com/abhn">Abhishek Nagekar</a>.
             </p>
             <p>
                 Made with ♥ and powered by
@@ -19,7 +27,7 @@
                 <a href="https://jekyllrb.com/">Jekyll</a>! 🧪 Hosted on
                 <a href="https://github.com/">Github</a>.
             </p>
-            <p class="footer-icons">
+            <text class="footer-icons">
                 <a class="icon" href="https://github.com/{{site.author.github}}">
                     {% include svg/github.html %}
                 </a>
@@ -29,7 +37,7 @@
                 <a class="icon" href="mailto:{{site.author.email}}">
                     {% include svg/email.html %}
                 </a>
-            </p>
+            </text>
         </div>
     </div>
 </footer>
