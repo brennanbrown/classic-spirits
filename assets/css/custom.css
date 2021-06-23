@@ -1,27 +1,9 @@
-body,
-figure,
-h1,
-h2,
-h4,
-hr,
-html,
-li,
-p,
-pre,
-ul {
-    margin: 0;
-    padding: 0
-}
-
-h1,
-h2,
-h4 {
-    font-size: 100%;
-    font-weight: 400
-}
-
 ul {
     list-style: none
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 input {
@@ -172,9 +154,13 @@ table th {
     color: #363636
 }
 
+.about {
+    padding: 10px;
+}
+
 .archive-year {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: underline;
 }
 
@@ -196,11 +182,15 @@ table th {
     border-radius: 5px;
     box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1);
     display: block;
-    padding: 1.25rem
+    padding: 1em;
 }
 
 .box:not(:last-child) {
     margin-bottom: 1.5rem
+}
+
+.breadcrumbs {
+    margin: 5px 10px;
 }
 
 .button {
@@ -239,8 +229,6 @@ table th {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding-left: .75em;
-    padding-right: .75em;
     text-align: center;
     white-space: nowrap
 }
@@ -311,9 +299,6 @@ table th {
 
 .content ul {
     list-style: disc outside;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 1em
 }
 
 .input {
@@ -442,19 +427,21 @@ table th {
 }
 
 .title {
-    font-weight: bold;
+    font-weight: 700;
     color: #363636;
     font-size: 3rem;
-    line-height: 1.125
+    line-height: 1.125;
+    margin-top: -1.5rem;
 }
 
 .title:not(.is-spaced)+.subtitle {
-    margin-top: -1.5rem
+    margin-top: -1rem
 }
 
 .subtitle {
     color: #4a4a4a;
-    line-height: 1.25
+    line-height: 1.25;
+    font-size: 1rem;
 }
 
 .container {
@@ -514,11 +501,10 @@ table th {
     -ms-flex-positive: 1;
     flex-grow: 1;
     font-weight: 700;
-    padding: .75rem
 }
 
 .card-content {
-    padding: 1.5rem
+    /* padding: 1.5rem */
 }
 
 .card-image {
@@ -538,7 +524,6 @@ table th {
 .nav-toggle {
     cursor: pointer;
     display: block;
-    height: 3.25rem;
     position: relative;
     width: 3.25rem
 }
@@ -561,7 +546,7 @@ table th {
 }
 
 input {
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .nav-toggle span:nth-child(1) {
@@ -603,7 +588,7 @@ input {
     -ms-flex-pack: center;
     justify-content: center;
     line-height: 1.5;
-    padding: .5rem .75rem
+    padding: 0 10px;
 }
 
 .nav-item a {
@@ -691,14 +676,6 @@ a.nav-item:hover {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end
-}
-
-@media screen and (min-width:769px) {
-    .nav-right {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex
-    }
 }
 
 .nav {
@@ -811,11 +788,25 @@ a.nav-item:hover {
     padding-right: .75em
 }
 
+.post-title {
+    margin-bottom: 0px;
+}
+
 .post-page {
     padding: 2em 1em;
 }
 
 @media screen and (max-width:768px) {
+
+    .box,
+    .nav.has-shadow {
+        box-shadow: none;
+    }
+
+    .nav {
+        width: 100%
+    }
+
     .pagination {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap
@@ -899,6 +890,12 @@ a.nav-item:hover {
         -ms-flex-order: 3;
         order: 3
     }
+
+    .nav-right {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
 }
 
 .tile {
@@ -928,10 +925,6 @@ a.nav-item:hover {
     margin-bottom: -.75rem
 }
 
-.tile.is-child {
-    margin: 0 !important
-}
-
 .tile.is-parent {
     padding: .75rem
 }
@@ -958,7 +951,8 @@ a.nav-item:hover {
         -webkit-box-flex: 0;
         -ms-flex: none;
         flex: none;
-        width: 33.33333%
+        width: 33.33333%;
+        margin-top: 22px;
     }
 
     .tile.is-8 {
@@ -1048,11 +1042,11 @@ a.nav-item:hover {
     font-size: larger;
     font-weight: 400;
     font-family: Roboto, sans-serif;
+    padding: 0 10px;
 }
 
 .card-text {
     font-family: "Open Sans", sans-serif;
-    padding: 10px;
 }
 
 .card-content {
@@ -1067,13 +1061,12 @@ a.nav-item:hover {
     font-size: small;
 }
 
-.post-text>p {
-    margin-bottom: 1em;
+.post-text {
+    text-align: justify;
 }
 
-.box {
-    padding-bottom: 3rem;
-    margin-bottom: 0.75rem;
+.post-text>p {
+    margin-bottom: 1em;
 }
 
 html,
@@ -1084,7 +1077,7 @@ body {
 
 a {
     color: #0055a5;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 @media screen and (max-width: 768px) {
