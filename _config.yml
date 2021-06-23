@@ -1,7 +1,7 @@
 # This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:title
-paginate: 5
+paginate: 8
 paginate_path: "/page:num/"
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
@@ -10,6 +10,7 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
+logo: 🎏
 title: Classic Spirits
 tagline: A Jekyll Theme for Old-school Blogging!
 description: A Jekyll theme for old-school blogging, based off of "Soot Spirits" by Abhishek Nagekar.
@@ -19,10 +20,23 @@ author:
   email: mail@brennanbrown.ca
   github: brennanbrown
   twitter: brennankbrown
-  feedburner:
 
 # New Config Options:
 excerpt_separator: <!--more-->
+
+blogroll:
+  - name: xkcd
+    url: https://xkcd.com/
+  - name: Commit Strip
+    url: http://commitstrip.com/
+  - name: SMBC Comics
+    url: http://www.smbc-comics.com/
+  - name: Coding Horror
+    url: https://blog.codinghorror.com/
+  - name: Wait But Why
+    url: http://waitbutwhy.com/
+  - name: Simply Soch
+    url: https://simplysoch.wordpress.com/
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
@@ -36,6 +50,7 @@ production_url: https://retropad.netlify.app
 url: https://retropad.netlify.app
 plugins:
   - jekyll-sitemap
+  - jekyll-twitter-plugin
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
