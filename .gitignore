@@ -1,4 +1,5 @@
 _site/
 .sass-cache/
 .jekyll-cache/
+.twitter-cache/
 .jekyll-metadata
