@@ -1,5 +1,7 @@
 # TODO
 
+June 22:
+
 - Typography (Size, etc.)
 	- Figcaption
 	- Line height on paragraphs
@@ -11,3 +13,9 @@
 - Add blogroll options in _config
 - Newsletter embed
 - Favicon
+
+June 24:
+
+- Update documentation
+- Update `_config.yml`
+- Change fonts

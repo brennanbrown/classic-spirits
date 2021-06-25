@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/brennanbrown/classic-spirits">
-    <img src="https://i.postimg.cc/ydtJNdJF/android-chrome-512x512.png" alt="Logo" width="80" height="80">
+    <img src="https://i.postimg.cc/FzT67X95/android-chrome-512x512.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Classic Spirits Theme for Jekyll</h3>
@@ -23,13 +23,12 @@
 
 <!-- BADGES -->
 <p align="center">
-<a href="https://app.netlify.com/sites/classic-spirits/deploys"><img src="https://api.netlify.com/api/v1/badges/d0dec072-0493-4b48-9f66-739482a9c80f/deploy-status" alt="Netlify Status"></a>
+<a href="https://app.netlify.com/sites/classic-spirits/deploys"><img src="https://api.netlify.com/api/v1/badges/2a8f461d-365e-4918-8bfb-43d1c59e0b03/deploy-status" alt="Netlify Status"></a>
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/brennanbrown/classic-spirits">
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/brennanbrown/classic-spirits">
 <a href="https://github.com/brennanbrown/classic-spirits/search?l=html"><img alt="GitHub top language" src="https://img.shields.io/github/languages/top/brennanbrown/classic-spirits"></a>
 <a href="https://github.com/brennanbrown/classic-spirits/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/brennanbrown/classic-spirits"></a>
 <a href="https://github.com/brennanbrown/classic-spirits/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brennanbrown/classic-spirits"></a>
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbrennanbrown%2Fclassic-spirits?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbrennanbrown%2Fclassic-spirits.svg?type=shield"/></a>
 <a href="https://github.com/brennanbrown/classic-spirits/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/brennanbrown/classic-spirits"></a>
 <a href="https://classic-spirits.netlify.app"><img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=Offline%21&label=Status&up_color=darkgreen&up_message=Online%21&url=https%3A%2F%2Fclassic-spirits.netlify.app"></a>
 <br />
@@ -47,11 +46,15 @@
 
 As of June 23rd, 2021, with >70 posts on Classic Spirits, the website scores a perfect 100 in Performance, Accessibility, Best Practices, and SEO on an audit with [**Google Lighthouse**](https://developers.google.com/web/tools/lighthouse).
 
-TODO: Screenshot
+![Classic-Spirits Screenshot](https://i.postimg.cc/wBzk8bph/cs-screenshot.png)
 
 ### Features
 
-TODO: Features
+- Completely reworked CSS styles to improve website speeds.
+- Two-column layout with responsive design, suitable for a wide range of blogging habits.
+- Simple integration with the [Jekyll Twitter plug-in](https://github.com/rob-murray/jekyll-twitter-plugin).
+- Modular components in the `_includes` folder. (`01_head.html`, `02_header.html`, etc.)
+- Auto-generated RSS feed, sitemap, accessibility features, and search-engine optimization.
 
 ## Installation
 
@@ -120,11 +123,10 @@ Once you have Jekyll up-and-running, there are only a few steps needed to make t
 
 There are several features that I'm still planning to create and integrate, including:
 
+- Clean up and organize the structure of `assets/custom.css` even further.
 - Create a [Theme Gem](https://jekyllrb.com/docs/themes/#publishing-your-theme)
 - Add easy and automatic buttons to ["Deploy to Netlify"](https://docs.netlify.com/site-deploys/create-deploys/#deploy-to-netlify-button), Heroku, etc.
 - Add Travis continious integration checks
-- Add additional documentation for creating custom collections and auto generated pages
-- Add more example posts and articles
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
@@ -147,8 +149,6 @@ Contributions are what make the open source community such an amazing place to b
 Distributed under the MIT License. You can use this project however you see fit without needing to give attribution.
 
 See `LICENSE` for more information.
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbrennanbrown%2Fclassic-spirits.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbrennanbrown%2Fclassic-spirits?ref=badge_large)
 
 ## Resources
 
