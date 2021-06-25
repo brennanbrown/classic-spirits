@@ -11,17 +11,26 @@
                 </header>
                 <div class="card-content h-card">
                     <div class="card-image">
-                        <img alt="Photo of {{site.author.name}}" class="u-photo" src="{{site.avatar}}">
+                        <img alt="Photo of {{site.author.name}}" class="u-photo" src="{{site.author.avatar}}">
                     </div>
                     <div class="content card-text about">
-                        Hi, I'm
-                        <span class="p-name">{{site.author.name}}</span>. This is my website,
-                        <a class="u-url" href="/">{{site.title}}</a>, where I mostly write about
-                        <span class="p-category">{{site.category}}</span>. My e-mail is
-                        <code>
-                            <a class="u-email" href="mailto:mail@brennanbrown.ca">{{site.author.email}}</a>
-                        </code>
-                        if you'd like to send me a message!
+                        <p class="p-note">
+                            Hi, I'm
+                            <span class="p-name">{{site.author.name}}</span>.
+                            {{site.author.bio}}
+                        </p>
+
+                        <p>This is my website,
+                            <a class="u-url u-uid" href="/" rel="me">{{site.title}}</a>, where I mostly write about
+                            <span class="p-category">{{site.category}}</span>.
+                        </p>
+
+                        <p>My e-mail is
+                            <code>
+                                <a class="u-email" href="mailto:mail@brennanbrown.ca">{{site.author.email}}</a>
+                            </code>
+                            if you'd like to send me a message!
+                        </p>
                     </div>
                 </div>
             </div>

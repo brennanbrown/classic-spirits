@@ -21,12 +21,11 @@ highlighter: rouge
 logo: 🎏
 title: Classic Spirits
 category: blogging
-tagline: A Jekyll Theme for Old-school Blogging!
 description: A Jekyll theme for old-school blogging, based off of "Soot Spirits" by Abhishek Nagekar.
-about: Hey there! My name is Brennan, I'm a 25-year-old Métis web developer and content strategist from Winnipeg, Manitoba and currently reside in Calgary, Alberta.
-avatar: https://brennanbrown.ca/img/avatar.jpg
 author:
   name: Brennan K. Brown
+  bio: I'm a 25-year-old Métis JAMstack developer and content strategist.
+  avatar: https://brennanbrown.ca/img/avatar.jpg
   email: mail@brennanbrown.ca
   github: brennanbrown
   twitter: brennankbrown
