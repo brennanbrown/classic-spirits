@@ -643,12 +643,6 @@ a.nav-item:hover {
     color: #363636
 }
 
-@media screen and (min-width:769px) and (max-width:999px) {
-    .nav-menu {
-        padding-right: 1.5rem
-    }
-}
-
 .nav-left,
 .nav-right {
     -webkit-box-align: stretch;
@@ -800,6 +794,9 @@ a.nav-item:hover {
 }
 
 @media screen and (max-width:768px) {
+    #searchFieldNav {
+        max-width: 230px;
+    }
 
     .box,
     .nav.has-shadow {
@@ -835,6 +832,7 @@ a.nav-item:hover {
 }
 
 @media screen and (min-width:769px) {
+
     .search-bar {
         width: 230px;
     }
@@ -901,7 +899,8 @@ a.nav-item:hover {
     .nav-right {
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex
+        display: flex;
+        margin-right: 15px;
     }
 }
 
@@ -1043,12 +1042,11 @@ a.nav-item:hover {
 .card-title {
     font-size: larger;
     font-weight: 400;
-    font-family: Roboto, sans-serif;
     padding: 0 10px;
 }
 
 .card-text {
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
 }
 
 .card-content {
@@ -1063,7 +1061,7 @@ a.nav-item:hover {
     font-size: small;
 }
 
-.post-text {
+.post-content {
     text-align: justify;
     font-family: Georgia, 'Times New Roman', Times, serif
 }
