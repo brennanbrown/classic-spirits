@@ -9,12 +9,19 @@
                         About the Author
                     </p>
                 </header>
-                <div class="card-content">
+                <div class="card-content h-card">
                     <div class="card-image">
-                        <img alt="Photo of {{site.author.name}}" src="https://brennanbrown.ca/img/avatar.jpg">
+                        <img alt="Photo of {{site.author.name}}" class="u-photo" src="{{site.avatar}}">
                     </div>
                     <div class="content card-text about">
-                        {{site.about}}
+                        Hi, I'm
+                        <span class="p-name">{{site.author.name}}</span>. This is my website,
+                        <a class="u-url" href="/">{{site.title}}</a>, where I mostly write about
+                        <span class="p-category">{{site.category}}</span>. My e-mail is
+                        <code>
+                            <a class="u-email" href="mailto:mail@brennanbrown.ca">{{site.author.email}}</a>
+                        </code>
+                        if you'd like to send me a message!
                     </div>
                 </div>
             </div>
