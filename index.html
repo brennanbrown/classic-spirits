@@ -8,14 +8,21 @@ title: Check out the latest blog posts!
     {% for post in paginator.posts %}
         <!-- Post: {{post.title}} -->
         <span class="post">
+            {% if post.image == null %}
+                <hr/>
+            {% endif %}
+            {% if post.image %}
+                <img class="post-image" src="{{ post.image }}">
+            {% endif %}
             <h2 class="post-title">
                 <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
             </h2>
-            <small>
+            <small class="post-meta">
                 <span>Posted:
                     {{ post.date | date: date_format }}
                     |
                 </span>
+                <br class="mobile-break"/>
                 <span>
                     {% for tag in post.tags %}
                         <a href="/tags/#{{ tag }}">#{{ tag }}</a>
@@ -27,7 +34,6 @@ title: Check out the latest blog posts!
                 <a href="{{ post.url | relative_url }}">Read more!</a>
             </p>
         </span>
-        <hr/>
     {% endfor %}
     {% include pagination.html %}
 </span>

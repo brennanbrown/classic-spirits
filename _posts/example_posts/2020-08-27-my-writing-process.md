@@ -8,6 +8,7 @@ tags:
   - Planning
   - Writing
 category: Self-improvement
+image: https://miro.medium.com/max/11064/1*RijfP3sZSfQXb8V_43OzUA.jpeg
 ---
 
 ## Five Steps to Go From Brainstorming to Completed Work

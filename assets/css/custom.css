@@ -182,7 +182,6 @@ table th {
     border-radius: 5px;
     box-shadow: 0 2px 3px rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .1);
     display: block;
-    padding: 1em;
 }
 
 .box:not(:last-child) {
@@ -694,7 +693,9 @@ a.nav-item:hover {
 }
 
 .pagination {
-    font-size: 1rem
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .pagination,
@@ -785,12 +786,20 @@ a.nav-item:hover {
     padding-right: .75em
 }
 
+.page-title {
+    padding-top: 15px;
+}
+
 .post-title {
     margin-bottom: 0px;
 }
 
 .post-page {
     padding: 2em 1em;
+}
+
+.mobile-break {
+    display: none;
 }
 
 @media screen and (max-width:768px) {
@@ -829,9 +838,20 @@ a.nav-item:hover {
     .pagination-list {
         margin-top: .75rem
     }
+
+    .mobile-break {
+        display: block;
+    }
 }
 
 @media screen and (min-width:769px) {
+
+    .post-title,
+    .post-meta,
+    .card-text {
+        padding: 0px 10px 0px 10px;
+    }
+
 
     .search-bar {
         width: 230px;
@@ -1039,6 +1059,14 @@ a.nav-item:hover {
     margin-bottom: 1em;
 }
 
+.post-image {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    padding-top: 15px;
+    margin-bottom: -15px;
+}
+
 .card-title {
     font-size: larger;
     font-weight: 400;
@@ -1091,4 +1119,11 @@ a {
     }
 }
 
-/* ~ jpasholk */
+@media print {
+
+    .nav,
+    .sidebar {
+        display: none;
+    }
+
+    /* ~ jpasholk */
