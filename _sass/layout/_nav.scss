@@ -1,0 +1,23 @@
+/* Navigation layout */
+.nav {
+  align-items: stretch;
+  background-color: #fff;
+  display: flex;
+  min-height: 3.25rem;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.nav.has-shadow { box-shadow: 0 2px 3px rgba(10, 10, 10, .1); }
+
+.nav-right {
+  justify-content: flex-end;
+}
+
+@media screen and (min-width:769px) {
+  .nav-right {
+    display: flex;
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,53 @@
+/* Constrained reading width for content */
+.reading {
+  max-width: 70ch; /* comfortable measure */
+  margin: 0 auto;
+  font-size: 1.06rem;
+  line-height: 1.75;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-family: "EB Garamond", Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Content heading scale within reading area */
+.reading h1 { font-size: clamp(2rem, 3vw + 1rem, 2.5rem); line-height: 1.2; margin: 1.6rem 0 .6rem; }
+.reading h2 { font-size: clamp(1.6rem, 2.2vw + .6rem, 2rem); line-height: 1.25; margin: 1.4rem 0 .5rem; }
+.reading h3 { font-size: clamp(1.3rem, 1.6vw + .5rem, 1.6rem); line-height: 1.3; margin: 1.2rem 0 .4rem; }
+.reading h4 { font-size: 1.15rem; margin: 1rem 0 .35rem; }
+
+/* Blockquotes */
+.reading blockquote {
+  margin: 1.25rem 0;
+  padding: .5rem 1rem;
+  border-left: 4px solid #c7d2fe;
+  background: #f8fafc;
+  color: #374151;
+}
+
+/* Figures */
+figure { margin: 1.25rem 0; }
+figcaption { font-size: .9rem; color: #6b7280; text-align: center; margin-top: .4rem; }
+
+/* Responsive base font scaling */
+@media (max-width: 768px) {
+  html { font-size: 18px; }
+  .reading { font-size: 1.1rem; }
+}
+@media (min-width: 1200px) {
+  html { font-size: 18.5px; }
+  .reading { font-size: 1.1rem; }
+}
+
+/* Reading area link styling */
+.reading a {
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  figcaption { color: #cbd5e1; }
+}
+
+/* Manual dark theme class */
+body.theme-dark figcaption { color: #cbd5e1; }
