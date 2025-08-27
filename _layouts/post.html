@@ -6,11 +6,15 @@ layout: default
 
 <div class="box">
     <h1 class="post-title centered">{{ page.title }}</h1>
-    <p>
+    <p class="post-meta">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {{ page.date | date: date_format }}
         </time>
+        •
+        {%- assign words = content | number_of_words -%}
+        {%- assign rt = words | divided_by:200 | plus:1 -%}
+        <span>{{ rt }} min read</span>
         {%- if page.modified_date -%}
             ~
             {%- assign mdate = page.modified_date | date_to_xmlschema -%}
@@ -36,7 +40,11 @@ layout: default
         {%- endfor -%}
     </p>
 
-    <span class="post-text post-content">{{ content }}</span>
+    <div class="content reading">
+        <span class="post-text post-content">{{ content }}</span>
+    </div>
+    
+    {% include author_box.html %}
     {% include post-pagination.html %}
 </div>
 

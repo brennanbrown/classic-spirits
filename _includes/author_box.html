@@ -1,0 +1,18 @@
+<div class="box">
+  <div class="author-box">
+    <img class="author-avatar" src="{{ site.author.avatar }}" alt="Photo of {{ site.author.name }}">
+    <div>
+      <p class="author-name">About the author — {{ site.author.name }}</p>
+      <p class="author-bio">{{ site.author.bio }}</p>
+      <p class="author-links">
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        {% if site.author.github %}
+          <a href="https://github.com/{{ site.author.github }}" rel="me">GitHub</a>
+        {% endif %}
+        {% if site.author.twitter %}
+          <a href="https://twitter.com/{{ site.author.twitter }}" rel="me">Twitter</a>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</div>

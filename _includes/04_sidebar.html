@@ -1,6 +1,34 @@
 <aside class="tile is-4 is-child">
     <div class="tile is-parent is-vertical sidebar">
 
+        <!-- Newsletter Signup -->
+        <div class="tile is-child widget">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title card-title">Newsletter</p>
+                </header>
+                <div class="card-content">
+                    <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                        <input type="hidden" name="form-name" value="newsletter">
+                        <p style="display:none">
+                            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+                        </p>
+                        <div class="field">
+                            <label class="label" for="newsletter-email">Get new posts in your inbox</label>
+                            <div class="control">
+                                <input id="newsletter-email" class="input" type="email" name="email" placeholder="you@example.com" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <button class="button is-dark" type="submit">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <!-- About Me -->
         <div class="tile is-child widget">
             <div class="card">
@@ -27,6 +55,20 @@
                             if you wanna work together!
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Calendar -->
+        <div class="tile is-child widget">
+            <div class="card">
+                <header class="card-header">
+                    <p class="card-header-title card-title">
+                        Calendar
+                    </p>
+                </header>
+                <div class="card-content">
+                    <div id="sidebar-calendar" class="calendar"></div>
                 </div>
             </div>
         </div>
