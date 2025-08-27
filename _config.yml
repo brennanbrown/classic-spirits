@@ -24,7 +24,7 @@ category: blogging
 description: A Jekyll theme for old-school blogging, based off of "Soot Spirits" by Abhishek Nagekar.
 author:
   name: Brennan K. Brown
-  bio: I'm a 25-year-old Métis JAMstack developer and content strategist.
+  bio: I'm a 29-year-old Métis JAMstack developer and content strategist.
   avatar: https://brennanbrown.ca/img/avatar.jpg
   email: mail@brennanbrown.ca
   github: brennanbrown
@@ -51,6 +51,14 @@ url: https://classic-spirits.netlify.app
 plugins:
   - jekyll-sitemap
   - jekyll-twitter-plugin
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Sass/SCSS configuration
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Jekyll-Bootstrap specific configurations:
 JB:
@@ -60,3 +68,4 @@ JB:
   tags_path: /tags.html
   atom_path: /atom.xml
   rss_path: /feed.xml
+

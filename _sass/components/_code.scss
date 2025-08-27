@@ -1,0 +1,15 @@
+// Code block and copy button styles
+
+.code-copy {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: .85rem;
+  background: #ffffffcc;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  padding: .2rem .45rem;
+  cursor: pointer;
+}
+
+.code-block { position: relative; }

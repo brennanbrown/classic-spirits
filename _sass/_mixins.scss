@@ -1,0 +1,23 @@
+// Common mixins to aid refactors
+
+// Media query helpers
+@mixin mq-max($width) {
+  @media screen and (max-width: $width) { @content; }
+}
+@mixin mq-min($width) {
+  @media screen and (min-width: $width) { @content; }
+}
+
+// Truncate text with ellipsis
+@mixin truncate($lines: 1) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// Focus ring
+@mixin focus-ring($color: #00d1b2) {
+  outline: 2px solid $color;
+  outline-offset: 2px;
+}
